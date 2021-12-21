@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    font-size: 18px;
+}
+.container {
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.container .switsh-color {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container .switsh-color li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container .switsh-color li:first-child {
+    background-color: brown;
+}
+.container .switsh-color li:nth-child(2) {
+    background-color: chartreuse;
+}
+.container .switsh-color li:nth-child(3) {
+    background-color: darkblue;
+}
+.container .switsh-color li:nth-child(4) {
+    background-color: darkslategrey;
+}
+.container h3 {
+    color: brown;
+}
+.container div {
+    background-color: brown;
+    padding: 20px;
+    color: wheat;
+}
+
+.container h3 {
+    color: brown;
+}
+.container div {
+    background-color: brown;
+    padding: 20px;
+    color: wheat;
+}
+
+.red .container h3 {
+    color: brown;
+}
+.red .container div {
+    background-color: brown;
+    padding: 20px;
+    color: wheat;
+}
+
+.green .container h3 {
+    color: chartreuse;
+}
+.green .container div {
+    background-color: chartreuse;
+    padding: 20px;
+    color: wheat;
+}
+
+.purble .container h3 {
+    color: darkblue;
+}
+.purble .container div {
+    background-color: darkblue;
+    padding: 20px;
+    color: wheat;
+}
+
+.black .container h3 {
+    color: darkslategrey;
+}
+.black .container div {
+    background-color: darkslategrey;
+    padding: 20px;
+    color: wheat;
+}
